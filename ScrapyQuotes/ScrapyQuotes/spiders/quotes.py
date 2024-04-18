@@ -5,9 +5,9 @@ import re
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
-    allowed_domains = ["quotes.toscrape.com", "amazon.ae"]
-    start_urls = ["https://www.amazon.ae/s?i=electronics&rh=n%3A12303750031&fs=true&page=3&qid=1713234824&ref=sr_pg_3"]
-    next_url_head = 'https://www.amazon.ae'
+    allowed_domains = [""]
+    start_urls = [""]
+    next_url_head = ''
     page = 0
     page_num = 1
 
